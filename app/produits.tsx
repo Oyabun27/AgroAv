@@ -15,7 +15,7 @@ export default function Produits() {
             pack:"sac de 5-40kg",
         },
         {
-            image:"/images/Capture.png",
+            image:"/images/Capture.jpeg",
             title:"Friandises",
             pack:"Box de 50g",
         },
