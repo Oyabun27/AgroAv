@@ -9,18 +9,18 @@ export default function Footer() {
         <Image src="/images/logoAgroAV.jpg" alt="logo_nft" width={30} height={30} />
       </div>
       <hr className="font-extralight my-2" />
-      <div className=" md:flex md:justify-between">
-        <div className="space-y-1" >
-          <p className="text-[24px] font-bold ">AgroAv</p>
-          <p className="flex text-black font-semibold"> <MapPin /> Cotonou, Benin </p>
-         
+      
+      <div className="md:flex md:justify-between">
+        <div className="space-y-1 mb-4 md:mb-0 text-[#2A9D8F] ml-4">
+          <p className="text-[24px] font-bold">AgroAv</p>
+          <p className="flex text-black font-semibold items-center space-x-1 text-[#2A9D8F]">
+            <MapPin className="mr-1 text-[#2A9D8F]" /> <span className="text-[#2A9D8F]">Cotonou, Benin</span>
+          </p>
         </div>
-          
 
-        <div className="space-x-3 text-center font-semibold " >
-          
+        <div className="flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0 text-left md:text-center font-semibold ml-4">
           <Link href="/terms" className="hover:text-gray-700">Termes & Conditions</Link>
-          <Link href="/about" className="hover:text-gray-700">A propos de Nous</Link>
+          <Link href="/about" className="hover:text-gray-700">À propos de Nous</Link>
           <Link href="/faq" className="hover:text-gray-700">FAQ</Link>
         </div>
       </div>
