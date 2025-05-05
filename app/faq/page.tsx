@@ -9,11 +9,11 @@ export default function FAQ() {
   return (
     <div className="px-6 py-10 bg-white text-gray-800 max-w-5xl mx-auto">
       <h1 className="text-4xl font-extrabold mb-6 text-[#2A9D8F] text-center">
-        FAQ - Ananas Séchés & Pommes d'Exception
+        FAQ - Ananas Séchés & Pommes d&apos;Exception
       </h1>
 
       <p className="mb-10 text-lg leading-relaxed text-center text-gray-700">
-        Retrouvez ici les réponses aux questions les plus fréquentes sur nos produits d'exception, leur préparation, leur conservation, et nos modalités de commande.
+        Retrouvez ici les réponses aux questions les plus fréquentes sur nos produits d&apos;exception, leur préparation, leur conservation, et nos modalités de commande.
       </p>
 
       <Accordion type="single" collapsible className="w-full space-y-4">

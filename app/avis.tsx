@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import { useState } from "react";
+
 import { FaQuoteLeft,} from "react-icons/fa";
 
 export default function Avis() {
@@ -58,7 +58,6 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
                         className="rounded-full object-cover"
                         fill
                         sizes="(max-width: 768px) 100vw, 64px"
-                        onError={() => setImgError(true)}
                         priority={false}
                     />
                 </div>
@@ -82,7 +81,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-             Ce qu '&apos;' ils disent de nous
+             Ce qu &apos; ils disent de nous
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Découvrez pourquoi nos client nous choisissent et nous font toujours confiance.
