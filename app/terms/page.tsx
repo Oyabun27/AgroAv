@@ -5,13 +5,13 @@ export default function Terms() {
       <h1 className="text-4xl font-extrabold mb-6 text-[#2A9D8F] text-center">Termes et Conditions</h1>
 
       <p className="mb-8 text-lg leading-relaxed text-center">
-        Bienvenue sur notre site. Veuillez lire attentivement les présents Termes et Conditions avant d'utiliser nos services. 
+        Bienvenue sur notre site. Veuillez lire attentivement les présents Termes et Conditions avant d &apos;utiliser nos services. 
         En accédant à notre site ou en passant commande, vous acceptez de vous conformer aux présentes conditions.
       </p>
 
       <div className="space-y-8">
         <Section title="1. Présentation du Site">
-          Ce site est exploité par <span className="font-semibold">AgroAv</span>, spécialiste de la vente d'ananas séchés et de pommes de qualité supérieure. 
+          Ce site est exploité par <span className="font-semibold">AgroAv</span>, spécialiste de la vente d&apos;ananas séchés et de pommes de qualité supérieure. 
           Notre mission : vous offrir des produits naturels et savoureux, directement issus des meilleurs producteurs.
         </Section>
 
@@ -21,17 +21,17 @@ export default function Terms() {
 
         <Section title="3. Commandes">
           Toute commande passée via notre site implique une acceptation entière et sans réserve des présentes Conditions Générales de Vente.
-          Nous nous réservons le droit de refuser ou d'annuler toute commande pour des motifs légitimes (litige antérieur, stock insuffisant, erreur manifeste).
+          Nous nous réservons le droit de refuser ou d&apos;annuler toute commande pour des motifs légitimes (litige antérieur, stock insuffisant, erreur manifeste).
         </Section>
 
         <Section title="4. Prix">
           Les prix affichés sont indiqués en [devise locale], toutes taxes comprises (TTC), hors frais de livraison.
-          Nous nous réservons le droit de modifier nos prix à tout moment, sans préavis, tout en garantissant l'application du tarif en vigueur au moment de la commande.
+          Nous nous réservons le droit de modifier nos prix à tout moment, sans préavis, tout en garantissant l&apos;application du tarif en vigueur au moment de la commande.
         </Section>
 
         <Section title="5. Paiement">
           
-         Les paiements sont sécurisés et peuvent s'effectuer par :
+         Les paiements sont sécurisés et peuvent s &apos;effectuer par :
           <ul className="list-disc list-inside mt-2 text-gray-700">
             <li>Espèces à la livraison</li>
             <li>Paiement mobile (MoMo, Moov Money…)</li>
@@ -55,7 +55,7 @@ export default function Terms() {
 
         <Section title="9. Données Personnelles">
           Les informations personnelles collectées sont nécessaires pour le traitement de vos commandes.
-          Elles sont traitées de manière confidentielle et sécurisée. Conformément à la législation applicable, vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles.
+          Elles sont traitées de manière confidentielle et sécurisée. Conformément à la législation applicable, vous disposez d&apos;un droit d&apos;accès, de rectification et de suppression de vos données personnelles.
         </Section>
 
         <Section title="10. Propriété Intellectuelle">

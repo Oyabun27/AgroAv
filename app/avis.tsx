@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { FaQuoteLeft, FaLinkedinIn } from "react-icons/fa";
+import { FaQuoteLeft,} from "react-icons/fa";
 
 export default function Avis() {
   const testimonials = [
@@ -46,7 +46,7 @@ interface Testimonial {
 }
 
 const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
-    const [imgError, setImgError] = useState(false);
+    
     
     return (
         <div className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full">
@@ -82,7 +82,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-             Ce qu'ils disent de nous
+             Ce qu '&apos;' ils disent de nous
             </h1>
             <p className="text-lg text-gray-600 mb-8">
               Découvrez pourquoi nos client nous choisissent et nous font toujours confiance.

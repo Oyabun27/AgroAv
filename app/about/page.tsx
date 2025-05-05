@@ -1,4 +1,4 @@
-import Footer from "../footer";
+
 export default function About() {
   return (
     <div className="px-6 md:px-16 py-12 bg-white">
